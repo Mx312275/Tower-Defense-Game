@@ -3,7 +3,7 @@ import os
 from .enemy import Enemy
 
 imgs = []
-for x in range(20):
+for x in range(200):
     add_str = str(x)
     if x < 10:
         add_str = "0" + add_str
